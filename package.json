@@ -1,0 +1,29 @@
+{
+  "name": "node-scaffold",
+  "version": "0.0.0-semantically-released",
+  "description": "Node app",
+  "main": "main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "test": "gulp test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Rene Slump",
+  "license": "None",
+  "dependencies": {
+    "express": "^4.14.0",
+    "typings": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sourcemaps": "^1.7.3",
+    "gulp-typescript": "^3.0.2",
+    "mocha": "^3.1.2",
+    "remap-istanbul": "^0.7.0",
+    "semantic-release": "^4.3.5",
+    "typescript": "^2.0.3"
+  }
+}
