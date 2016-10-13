@@ -4,7 +4,7 @@
   "description": "Node app",
   "main": "main.js",
   "scripts": {
-    "start": "node dist/main.js",
+    "start": "gulp build && node dist/src/main.js",
     "test": "gulp test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
