@@ -11,22 +11,10 @@ const nodemon = require('gulp-nodemon');
 gulp.task('test', ['test:cover']);
 gulp.task('default', ['build', 'test']);
 
-gulp.task('serve',['build'], () => {
-    nodemon({
-        tasks: ['build'],
-        script: 'dist/src/main.js',
-        ext: '.ts',
-        ignore: '.js',
-        env: {
-            'NODE_ENV': 'development'
-        }
-    })
-});
-
-gulp.task('serve test', ['default'], () => {
+gulp.task('serve',['default'], () => {
     nodemon({
         tasks: ['default'],
-        script: 'dist/test/startup.tests.js',
+        script: 'dist/src/main.js',
         ext: '.ts',
         ignore: '.js',
         env: {
@@ -45,7 +33,6 @@ gulp.task('build', () => {
       }))
     .pipe(gulp.dest('dist/src'))
 });
-
 
 gulp.task('test:instrument', ['build'], () => {
   return gulp.src('./dist/src/*.js')
