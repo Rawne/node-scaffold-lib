@@ -15,10 +15,13 @@
     "typings": "^1.4.0"
   },
   "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.2.1",
     "gulp-sourcemaps": "^1.7.3",
     "gulp-typescript": "^3.0.2",
     "mocha": "^3.1.2",

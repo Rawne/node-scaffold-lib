@@ -4,7 +4,11 @@
   },
   "globalDependencies": {
     "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20161012061536",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
     "mocha": "registry:env/mocha#2.2.5+20160926180742",
-    "node": "registry:env/node#6.0.0+20161011193755"
+    "node": "registry:env/node#6.0.0+20161011193755",
+    "path-to-regexp": "registry:dt/path-to-regexp#1.0.3+20160317120654",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }
 }
