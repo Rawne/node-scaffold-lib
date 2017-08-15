@@ -1,12 +1,24 @@
 {
-    "files": [
-        "src/main.ts",
-        "test/startup.tests.ts",
-        "typings/index.d.ts"
-    ],
     "compilerOptions": {
-        "noImplicitAny": true,
-        "target": "es5",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./typings/gobals",
+            "./typings/modules"
+        ],
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "emitDecoratorMetadata": true,
+        "declaration": true,
         "rootDir": "./src"
-    }
+    },
+    "includes": [
+        "src/*.ts",
+        "src/**/*.ts",
+        "test/*.tests.ts",
+        "test/**/*.ts",
+        "typings/index.d.ts"
+    ]
 }

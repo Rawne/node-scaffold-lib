@@ -1,32 +1,40 @@
 {
-  "name": "node-scaffold",
+  "name": "scaffold",
   "version": "0.0.0-semantically-released",
-  "description": "Node app",
-  "main": "main.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp build && node dist/src/main.js",
-    "test": "gulp test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && semantic-release post"
   },
-  "author": "Rene Slump",
-  "license": "None",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "typings": "^1.4.0"
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "inversify-express-doc": "^1.2.0",
+    "reflect-metadata": "^0.1.10"
   },
   "devDependencies": {
-    "babel-preset-latest": "^6.16.0",
     "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
     "gulp-istanbul": "^1.1.1",
-    "gulp-mocha": "^3.0.1",
+    "gulp-mocha": "3.0.1",
     "gulp-nodemon": "^2.2.1",
-    "gulp-sourcemaps": "^1.7.3",
-    "gulp-typescript": "^3.0.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.0.0",
+    "gulp-typescript": "^3.1.6",
+    "inversify": "^4.1.0",
+    "inversify-express-utils": "^3.5.1",
     "mocha": "^3.1.2",
-    "remap-istanbul": "^0.7.0",
+    "remap-istanbul": "^0.9.5",
+    "run-sequence": "^1.2.2",
     "semantic-release": "^4.3.5",
-    "typescript": "^2.0.3"
+    "supertest": "^3.0.0",
+    "tslint": "^5.2.0",
+    "typescript": "^2.0.6",
+    "typings": "^2.1.1"
   }
 }
