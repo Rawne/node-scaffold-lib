@@ -1,5 +1,5 @@
 {
-  "name": "scaffold",
+  "name": "node-scaffold-template",
   "version": "0.0.0-semantically-released",
   "description": "",
   "main": "gulpfile.js",
@@ -36,5 +36,9 @@
     "tslint": "^5.2.0",
     "typescript": "^2.0.6",
     "typings": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawne/node-scaffold.git"
   }
 }
