@@ -6,24 +6,24 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "gulp test",
-    "semantic-release": "semantic-release pre && npm publish --access=public && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
+    "gulp-clean": "^0.4.0",
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "3.0.1",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-tslint": "^8.0.0",
-    "gulp-typescript": "^3.1.6",
-    "mocha": "^3.1.2",
-    "remap-istanbul": "^0.9.5",
-    "semantic-release": "^4.3.5",
+    "gulp-typescript": "^4.0.2",
+    "mocha": "^5.2.0",
+    "remap-istanbul": "^0.11.1",
+    "semantic-release": "^15.5.0",
     "tslint": "^5.2.0",
     "typescript": "^2.0.6",
     "typings": "^2.1.1"
