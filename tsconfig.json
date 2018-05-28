@@ -1,9 +1,7 @@
 {
     "compilerOptions": {
         "typeRoots": [
-            "./node_modules/@types",
-            "./typings/gobals",
-            "./typings/modules"
+            "./node_modules/@types"
         ],
         "experimentalDecorators": true,
         "module": "commonjs",
@@ -18,7 +16,6 @@
         "src/*.ts",
         "src/**/*.ts",
         "test/*.tests.ts",
-        "test/**/*.ts",
-        "typings/index.d.ts"
+        "test/**/*.ts"
     ]
 }

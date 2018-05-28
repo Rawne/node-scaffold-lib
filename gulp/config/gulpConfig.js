@@ -1,7 +1,7 @@
 module.exports = {
   dirs: {
     gulp: './gulp/',
-    base: 'dist/src',
+    base: 'dist/',
     dist_base: './dist/',
     src: './src/',
     src1: './src/*.ts',
@@ -15,6 +15,5 @@ module.exports = {
     },
     coverage: './coverage/coverage-final.json',
     lcovonly:'./coverage/lcov.info'
-  },
-  projectName: 'DefaultProject'
+  }
 };
