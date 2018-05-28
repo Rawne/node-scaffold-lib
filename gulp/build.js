@@ -11,7 +11,7 @@
 				.pipe(sourcemaps.init())
 				.pipe(tsProject())
 				.pipe(sourcemaps.write())
-				.pipe(gulp.dest(GLOBAL.dirs.dist.src))
+				.pipe(gulp.dest(GLOBAL.dirs.dist_base))
 		}
 }
 })();
