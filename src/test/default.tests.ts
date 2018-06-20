@@ -1,5 +1,5 @@
 import * as Chai from 'chai';
-import Default from '../src/default';
+import Default from '../default';
 
 const expect = Chai.expect;
 describe('Default test', () => {

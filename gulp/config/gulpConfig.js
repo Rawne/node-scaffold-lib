@@ -9,7 +9,7 @@ module.exports = {
     src3: './src/**/**/*.ts',
     testsrc: './test/**/*.ts',
     dist: {
-      src: './dist/src/',
+      src: './dist/',
       tests: './dist/**/*tests.js',
       instrument: './dist/**/*.js'
     },
