@@ -8,7 +8,6 @@ install:
 
 script:
   - npm run test
-  - gulp build
 
 after_success:
   - npm run semantic-release
